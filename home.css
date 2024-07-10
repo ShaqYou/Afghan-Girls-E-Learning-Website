@@ -1,0 +1,66 @@
+/* home.css */
+.intro {
+    background-image: url('background.jpg'); /* Background picture */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.intro .intro-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    padding: 20px;
+    display: inline-block;
+}
+
+.intro h1 {
+    font-size: 36px;
+}
+
+.intro p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.intro button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.purpose, .features {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.purpose {
+    background-color: #fff0f5; /* Light pink background */
+}
+
+.purpose h2, .features h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.purpose p {
+    font-size: 18px;
+}
+
+.features {
+    background-color: #ffe4e1; /* Slightly darker pink background */
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.features li {
+    font-size: 18px;
+    margin: 10px 0;
+}
