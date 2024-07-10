@@ -5,6 +5,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     direction: rtl;
+    background-color: #f2f2f2;
 }
 
 .navbar {
