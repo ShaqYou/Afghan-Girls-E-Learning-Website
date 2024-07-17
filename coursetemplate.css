@@ -1,0 +1,47 @@
+/* course.css */
+.course-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.course-description {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.course-description h2 {
+    font-size: 32px;
+    color: #ff69b4;
+}
+
+.course-description p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.course-description button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff69b4;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.course-description button:hover {
+    background-color: #ff1493;
+}
+
+.course-info {
+    flex: 1;
+}
+
+.info-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

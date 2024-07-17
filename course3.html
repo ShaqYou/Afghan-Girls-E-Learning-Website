@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دوره JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="course_page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">لوگو</div>
+            <ul class="nav-links">
+                <li><a href="index.html">خانه</a></li>
+                <li><a href="courses.html">دوره‌ها</a></li>
+                <li><a href="dashboard.html">داشبورد</a></li>
+                <li><a href="contact.html">تماس با ما</a></li>
+                <li><a href="signup.html">ثبت‌نام</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button onclick="window.location.href='login.html'">ورود</button>
+                <button onclick="window.location.href='signup.html'">ثبت‌نام</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="course-container">
+            <aside class="sidebar">
+                <h2>ماژول‌ها</h2>
+                <ul class="modules-list">
+                    <li onclick="showModule('module1')">ماژول ۱: مقدمه‌ای بر JavaScript</li>
+                    <li onclick="showModule('module2')">ماژول ۲: متغیرها و داده‌ها</li>
+                    <li onclick="showModule('module3')">ماژول ۳: توابع و رویدادها</li>
+                </ul>
+            </aside>
+            <section class="main-content">
+                <div id="module1" class="module-content">
+                    <h2>ماژول ۱: مقدمه‌ای بر JavaScript</h2>
+                    <ul>
+                        <li>درس ۱: تعریف JavaScript</li>
+                        <li>درس ۲: نوشتن اولین برنامه</li>
+                        <li>درس ۳: نحوه استفاده در HTML</li>
+                    </ul>
+                </div>
+                <div id="module2" class="module-content" style="display:none;">
+                    <h2>ماژول ۲: متغیرها و داده‌ها</h2>
+                    <ul>
+                        <li>درس ۱: معرفی متغیرها</li>
+                        <li>درس ۲: انواع داده‌ها</li>
+                        <li>درس ۳: عملیات روی داده‌ها</li>
+                    </ul>
+                </div>
+                <div id="module3" class="module-content" style="display:none;">
+                    <h2>ماژول ۳: توابع و رویدادها</h2>
+                    <ul>
+                        <li>درس ۱: تعریف توابع</li>
+                        <li>درس ۲: مدیریت رویدادها</li>
+                        <li>درس ۳: تمرین عملی</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2024 پلتفرم آموزش الکترونیکی. کلیه حقوق محفوظ است.</p>
+    </footer>
+
+    <script src="course_page.js"></script>
+</body>
+</html>
